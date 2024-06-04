@@ -27,5 +27,6 @@ window.onload = function() {
   const whensIndex = Math.trunc(Math.random() * whens.length);
   const when = whens[whensIndex];
   const excuse = `${who} ${action} ${what} ${when}`;
+  const p = document.querySelector("#excuse");
   console.log("Hello Rigo from the console!");
 };
