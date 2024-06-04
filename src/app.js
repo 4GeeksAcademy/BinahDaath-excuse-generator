@@ -28,5 +28,6 @@ window.onload = function() {
   const when = whens[whensIndex];
   const excuse = `${who} ${action} ${what} ${when}`;
   const p = document.querySelector("#excuse");
+  p.innerHTML = excuse;
   console.log("Hello Rigo from the console!");
 };
